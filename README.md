@@ -5,7 +5,7 @@ This is a simple data visualization app for analyzing wine data. It provides sta
 ## Features
 
 - **Flavanoids Statistics:** Calculates mean, median, and mode of Flavanoids for each wine class.
-- **Gamma Statistics:** Calculates mean, median, and mode of a derived feature (Gamma) for each wine class.
+- **Gamma Statistics:** Calculates mean, median, and mode of Gamma for each wine class.
 - **Responsive Design:** The app is designed to be responsive, adapting to different screen sizes.
 
 ## Related Screenshots
