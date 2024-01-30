@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# Data Visualization App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple data visualization app for analyzing wine data. It provides statistical insights into the Flavanoids and Gamma features of different wine classes.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Flavanoids Statistics:** Calculates mean, median, and mode of Flavanoids for each wine class.
+- **Gamma Statistics:** Calculates mean, median, and mode of a derived feature (Gamma) for each wine class.
+- **Responsive Design:** The app is designed to be responsive, adapting to different screen sizes.
 
-### `yarn start`
+## Related Screenshots
+![Data_Visualization_App](https://github.com/TusharTechs/data-visualization-app/assets/56952465/61076822-b3c9-4838-93b6-3c51b14f0242)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-### `yarn test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Node.js](https://nodejs.org/) installed on your machine.
+- [Yarn](https://yarnpkg.com/) installed on your machine.
 
-### `yarn build`
+### Installing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository to your local machine:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`git clone https://github.com/your-username/data-visualization-app.git`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Navigate to the project directory:**
 
-### `yarn eject`
+`cd data-visualization-app`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. **Install dependencies:**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`yarn install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Running the App
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. **Start the development server:**
 
-## Learn More
+`yarn start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Visit http://localhost:3000 in your browser to view the app.**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Project Structure
+
+- src/: Contains the source code of the React app.
+
+- components/: React components for Flavanoids and Gamma statistics.
+
+- utils/: Utility functions for calculating statistics.
+
+- public/: Public assets, including the wine data JSON file.
+
+- App.css: Stylesheet for the app.
+
+## Built With
+
+- React
+
+## Authors
+
+- Tushar Agarwal
