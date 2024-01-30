@@ -12,7 +12,7 @@ This is a simple data visualization app for analyzing wine data. It provides sta
 ![Data_Visualization_App](https://github.com/TusharTechs/data-visualization-app/assets/56952465/61076822-b3c9-4838-93b6-3c51b14f0242)
 
 ## Live Link
-[Check Out Live](https://wine-data-visualization-app.vercel.app/){:target="_blank"}
+<a href="https://wine-data-visualization-app.vercel.app/" target="_blank">Check Out Live</a>
 
 ## Getting Started
 
