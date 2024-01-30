@@ -23,21 +23,17 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Installing
 
 1. **Clone the repository to your local machine:**
-
 `git clone https://github.com/your-username/data-visualization-app.git`
 
 2. **Navigate to the project directory:**
-
 `cd data-visualization-app`
 
 3. **Install dependencies:**
-
 `yarn install`
 
 ### Running the App
 
 1. **Start the development server:**
-
 `yarn start`
 
 2. **Visit http://localhost:3000 in your browser to view the app.**
