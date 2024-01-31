@@ -9,7 +9,7 @@ This is a simple data visualization app for analyzing wine data. It provides sta
 - **Responsive Design:** The app is designed to be responsive, adapting to different screen sizes.
 
 ## Related Screenshots
-![Data_Visualization_App](https://github.com/TusharTechs/data-visualization-app/assets/56952465/95e218af-5569-423f-bdcb-9af78b1993f7)
+![Data_Visualization_App](https://github.com/TusharTechs/data-visualization-app/assets/56952465/2c36eb00-2da6-402a-92d0-ae8f7a24d6f1)
 
 ## Live Link
 
