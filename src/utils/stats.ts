@@ -74,14 +74,16 @@ export function calculateGammaStats(
   return classStats;
 }
 
-// Function to calculate the mean of an array of numbers
-function calculateMean(data: number[]): number {
-  return data.reduce((sum, value) => sum + value, 0) / data.length;
+// Function to calculate the mean of an array of numbers or string representations of numbers
+function calculateMean(data: (number | string)[]): number {
+  const numericData = data.map((value) => (typeof value === 'string' ? parseFloat(value) : value));
+  return numericData.reduce((sum, value) => sum + value, 0) / numericData.length;
 }
 
-// Function to calculate the median of an array of numbers
+// Function to calculate the median of an array of numbers or string representations of numbers
 function calculateMedian(data: number[]): number {
-  const sortedData = data.slice().sort((a, b) => a - b);
+  const numericData = data.map((value) => (typeof value === 'string' ? parseFloat(value) : value));
+  const sortedData = numericData.slice().sort((a, b) => a - b);
   const middle = Math.floor(sortedData.length / 2);
 
   if (sortedData.length % 2 === 0) {
@@ -91,11 +93,12 @@ function calculateMedian(data: number[]): number {
   }
 }
 
-// Function to calculate the mode of an array of numbers
+// Function to calculate the mode of an array of numbers or string representations of numbers
 function calculateMode(data: number[]): number {
+  const numericData = data.map((value) => (typeof value === 'string' ? parseFloat(value) : value));
   const frequencyMap: Record<number, number> = {};
 
-  data.forEach((value) => {
+  numericData.forEach((value) => {
     frequencyMap[value] = (frequencyMap[value] || 0) + 1;
   });
 
